@@ -1,4 +1,4 @@
-let n = 5; //readline
+let n = process.argv[2] || 5;
 let l = 1;
 
 for(let i = n; i > 0; i--){
