@@ -11,12 +11,12 @@ if ! [[ $number =~ $regex ]]; then
 fi
 
 for (( i=$number; i > 1; i-- )) do
-        z=''
+        z=
         for (( a=1; a <= $i; a++ )) do
                 z+=".";
         done
 
-        y=''
+        y=
         for (( b=1; b <= $length; b++ )) do
                 y+="*";
         done
