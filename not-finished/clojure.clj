@@ -1,4 +1,4 @@
-(def n 5)
+(def n 5) ; readline
 (def l 1)
 
 (loop [i n]
