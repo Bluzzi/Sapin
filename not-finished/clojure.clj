@@ -8,9 +8,8 @@
     )
 )
         
-(def z (reduce str (take 3 (cycle ["."])))) 
-;;(def z ((repeat 3 "str"))
-(println z"*"z)
+(def z (reduce str (repeat n ".")))
+(println (str z "*" z))
 
 (println "fuck this langage.")
 
@@ -20,5 +19,5 @@
 ;; 3
 ;; 2
 ;; 1
-;; ... * ...
+;; .....*.....
 ;; fuck this langage.
