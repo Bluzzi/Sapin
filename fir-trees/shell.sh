@@ -31,5 +31,5 @@ for (( i=1; $i <= $number; i++ )) do
 done
 
 echo $z"*"$z
-exit 1
 
+read
