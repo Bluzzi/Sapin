@@ -12,7 +12,6 @@ fn main() {
     while i > 0 {
         println!("{}", ".".repeat(i) + &"*".repeat(l) + &".".repeat(i));
 
-
         l += 2;
         i -= 1;
     }
