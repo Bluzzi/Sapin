@@ -24,10 +24,6 @@ for /l %%i in (1,1, 1) do CALl :REP_A %%o
 for /l %%i in (1,1, %number%) do CALL :REP %%i
 echo.
 
-pause
-
-(exit /b)
-
 :REP
 echo|set /p="."
 GOTO:EOF
