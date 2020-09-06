@@ -30,3 +30,8 @@ for i in range(n, 1, -1):
 z = "." * n
 print(z + "*" + z)
 ```
+
+## TODO
+- Objective C
+- Assembleur
+- TypeScript
