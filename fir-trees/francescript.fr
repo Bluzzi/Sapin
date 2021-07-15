@@ -1,0 +1,10 @@
+n = Nombreentier(entree())
+l = 1
+
+pour i dans range(n, 1, -1):
+    z = "." * i
+    imprimer(z + "*" * l + z)
+    l += 2
+
+z = "." * n
+imprimer(z + "*" + z)
